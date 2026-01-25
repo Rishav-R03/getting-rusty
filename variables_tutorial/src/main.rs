@@ -1,8 +1,9 @@
 //1. Declare that the module exist
 mod access_element;
-
+mod control_flow_rust;
 //2. Bring the function into scope
 use access_element::access_element_with_index;
+use control_flow_rust::control_flow_in_rust;
 
 fn sample_function() {
     // no parameters
@@ -56,4 +57,5 @@ fn main() {
 
     parameter_function(6);
     parameter_function_2(6, 'h');
+    control_flow_in_rust();
 }
