@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/guessing_game/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/guessing_game_final/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/loops_in_rust/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/variables_tutorial/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ownership_and_Reference/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
+      <excludeFolder url="file://$MODULE_DIR$/guessing_game_final/target" />
+      <excludeFolder url="file://$MODULE_DIR$/loops_in_rust/target" />
+      <excludeFolder url="file://$MODULE_DIR$/variables_tutorial/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Ownership_and_Reference/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
