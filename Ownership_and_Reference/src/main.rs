@@ -1,3 +1,8 @@
+mod borrowing_and_references;
+
+use borrowing_and_references::calculate_length;
+use borrowing_and_references::calculate_string_length;
+use borrowing_and_references::mutable_length;
 fn main() {
     println!("Welcome to Ownership and Reference Tutorial");
 
@@ -29,13 +34,20 @@ fn main() {
     println!("{}",s4);
     push_rust(&mut s4);
     println!("{}",s4);
-}
 
-fn calculate_length(some_string: &String) -> usize {
-    some_string.len() // works without taking ownership, allowing the main function
-    // to use the string after the call
+    //use string length function
+    // use the function
+    let length = calculate_length(&s4); //we don't have to create new ownership
+    //because we are borrowing right here.
+    println!("{}",length);
+    let length2 = calculate_string_length(s4); //we are moving ownership to the function
+    //and if we try to access s4 from here we will get error that s4 is moved.
+    println!("{}",length2);
+    //third kind of implementation using mut
+    let mut s5 = String::from("I love Rust");
+    let length3 = mutable_length(&mut s5);
+    println!("{}",length3);
 }
-
 // dangling reference
 
 // fn dangle() -> &String {
