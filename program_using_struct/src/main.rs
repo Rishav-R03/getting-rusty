@@ -1,4 +1,5 @@
 mod methods;
+mod associated_functions;
 
 use methods::*;
 fn main() {
@@ -30,6 +31,17 @@ fn main() {
     let c1 = Circle{ radius: 10.0};
     let area = c1.area();
     println!("The area of the Circle is {area}");
+
+    let my_clock = Clock { hours: 8 };
+
+    // Rust knows my_clock.hours() is the method because of the parentheses
+    if my_clock.hours() < 12 {
+        println!("It is {} AM", my_clock.hours); // Accessing the field directly
+    }
+
+    let mut user1 = crate::associated_functions::User::new("Alice");
+    user1.deactivate();
+    println!("The activity status of the user {} is: {}",user1.username,user1.active);
 }
 #[derive(Debug)] // important, position is also important
 //The debug trait enables us to print our struct in way that is useful for developers
