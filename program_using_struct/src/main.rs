@@ -1,5 +1,6 @@
+mod methods;
 
-
+use methods::*;
 fn main() {
     println!("Welcome to a program written using structs.");
 
@@ -25,7 +26,10 @@ fn main() {
     //putting :? specifier inside curly brackets tells println! we want
     // to use an output format called Debug.
 
-
+    //Circle impl
+    let c1 = Circle{ radius: 10.0};
+    let area = c1.area();
+    println!("The area of the Circle is {area}");
 }
 #[derive(Debug)] // important, position is also important
 //The debug trait enables us to print our struct in way that is useful for developers
