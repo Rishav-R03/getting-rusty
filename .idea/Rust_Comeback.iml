@@ -7,11 +7,17 @@
       <sourceFolder url="file://$MODULE_DIR$/loops_in_rust/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/variables_tutorial/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ownership_and_Reference/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/program_using_struct/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/enums_patterns/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/if_let_and_let_else/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game_final/target" />
       <excludeFolder url="file://$MODULE_DIR$/loops_in_rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables_tutorial/target" />
       <excludeFolder url="file://$MODULE_DIR$/Ownership_and_Reference/target" />
+      <excludeFolder url="file://$MODULE_DIR$/program_using_struct/target" />
+      <excludeFolder url="file://$MODULE_DIR$/enums_patterns/target" />
+      <excludeFolder url="file://$MODULE_DIR$/if_let_and_let_else/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
