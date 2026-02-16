@@ -1,0 +1,11 @@
+[package]
+name = "edms_manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "2.0.18"
+rusqlite = "0.38"
+tempfile = "3.24.0"
+zip = "7.4.0"
+rand = "0.10.0"
